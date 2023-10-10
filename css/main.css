@@ -1,3 +1,8 @@
+:root {
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+}
+
 * {
   box-sizing: border-box;
   font-family: "Hanken Grotesk", sans-serif;
@@ -57,7 +62,7 @@ main {
   height: 14em;
   text-align: center;
   padding-top: 2em;
-  background: linear-gradient(to top, #4d21c9, #2521c9);
+  background-image: linear-gradient(var(--violet-blue), var(--persian-blue));
   border-radius: 50%;
 }
 
